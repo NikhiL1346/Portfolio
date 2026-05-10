@@ -19,7 +19,7 @@ const Footer = ({isDarkMode}) => {
             <p> © 2025 Nikhil Dayma. All rights reserved.</p>
              <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
                 <li><a target="_blank" href="https://github.com/NikhiL1346">Github</a></li>
-                <li><a target="_blank" href="https://www.linkedin.com/in/nik1346">LinkedIN</a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/nik1346">LinkedIn</a></li>
              </ul>
         </div>
     </div>

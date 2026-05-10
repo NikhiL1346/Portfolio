@@ -27,7 +27,7 @@ const Work = ({isDarkMode}) => {
     whileInView={{opacity:1}}
     transition={{duration:0.5,delay:0.7}}
     className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
-     SOme text
+      Welcome to my portfolio — a collection of projects I&apos;ve built with passion and purpose.
     </motion.p>
 
     <motion.div 
@@ -48,17 +48,15 @@ const Work = ({isDarkMode}) => {
                <motion.div className="bg-white w-10/12 rounded-md absolute 
                bottom-5 left-1/2  -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500
                group-hover:bottom-7">
-
                <motion.div >
                    <motion.h2 className="font-semibold">{project.title}</motion.h2>
                    <p className="text-sm text-gray-700">{project.description}</p>
                </motion.div>
                <motion.div className="border rounded-full border-black w-9 aspect-square flex
-               items-center justify-center shadow-[2px_2_0_#000] hover:group-hover:bg-lime-300 transition">
+               items-center justify-center shadow-[2px_2_0_#000] group-hover:bg-lime-300 transition">
                    <Image src={assets.send_icon} alt="send icon"
                     className="w-5"/>
                </motion.div>
-               <button>Show More</button>
                </motion.div>
             </motion.div>
         ))}

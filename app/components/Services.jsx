@@ -26,12 +26,12 @@ const Services = () => {
         My Services</motion.h2>
       
 
-      <motion.p
+    <motion.p
       initial={{opacity:0}}
       whileInView={{opacity:1}}
       transition={{duration:0.7,delay:0.5}}
-      >
-
+      className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
+        From backend architecture to frontend interfaces — here&apos;s what I bring to the table.
       </motion.p>
 
       <motion.div 

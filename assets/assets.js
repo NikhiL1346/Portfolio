@@ -78,40 +78,40 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Synkrone Rule Engine',
+        description: 'Backend System',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Premium Calc API',
+        description: 'REST API',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'RBAC Auth System',
+        description: 'Node.js / JWT',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Portfolio Website',
+        description: 'Next.js / TailwindCSS',
         bgImage: '/work-4.png',
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Backend Development', description: 'Scalable REST APIs and microservices using Node.js, TypeScript, Express, Redis and PostgreSQL.', link: '' },
+    { icon: assets.mobile_icon, title: 'API Design & Integration', description: 'Low-latency API design with JWT auth, RBAC, audit logging and high-concurrency optimizations.', link: '' },
+    { icon: assets.ui_icon, title: 'Frontend Development', description: 'Responsive UIs built with React.js, Next.js, Redux Toolkit and TailwindCSS.', link: '' },
+    { icon: assets.graphics_icon, title: 'DSA & Problem Solving', description: '1300+ problems solved on LeetCode and Codeforces with strong algorithmic foundations.', link: '' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Tech Stack', description: 'Node.js, TypeScript, React.js, Next.js, MongoDB, Redis, PostgreSQL' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech CSE — IIIT Kota (2021–2025), CGPA: 8.28' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Experience', description: 'Software Developer at Care Health Insurance Ltd. (Jan 2025 – Present)' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.mongodb, assets.git, assets.figma, assets.firebase
 ];

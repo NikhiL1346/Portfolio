@@ -55,10 +55,11 @@ const About = ({ isDarkMode, setIsDarkMode }) => {
           className="flex-1"
         >
           <p className="mb-10 max-w-2xl font-Ovo">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam natus
-            nesciunt tempore totam, obcaecati doloremque veritatis quidem
-            incidunt itaque nulla exercitationem minima consectetur? Dolor
-            deserunt minus voluptates, sed ad natus.
+            Backend-focused Software Engineer with experience building scalable APIs, modernizing legacy systems,
+            and designing high-performance architectures using Node.js, TypeScript, MongoDB, Redis, and PostgreSQL.
+            Currently at Care Health Insurance Ltd., where I re-architected legacy PHP services to TypeScript,
+            improving system throughput by 35% across 17.5K+ daily requests. I&apos;ve also solved 1300+ DSA
+            problems on LeetCode and Codeforces.
           </p>
           <motion.ul
             initial={{ opacity: 0 }}

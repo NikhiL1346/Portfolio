@@ -86,8 +86,6 @@ const Navbar = ({isDarkMode,setIsDarkMode}) => {
              className='cursor-pointer w-5'/>
         </div>
 
-
-            <li><a className='font-Ovo' onClick={closeMenu} href="#top">Home</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href="#top">Home</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href="#about">About Me</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href="#services">Services</a></li>

@@ -28,13 +28,13 @@ const Header = () => {
         whileInView={{y:0,opacity:1}}
         transition={{duration:0.8,delay:0.5}}
         className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-            Developer!</motion.h1>
+            Backend Engineer</motion.h1>
             <motion.p 
             initial={{opacity:0}}
             whileInView={{opacity:1}}
             transition={{duration:0.6,delay:0.7}}
             className='max-w-2xl mx-auto font-Ovo'>
-               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint beatae, optio sit eum pariatur est sapiente nulla quo rerum quaerat impedit maiores, a quas consequatur ea error laborum repudiandae dicta?
+               Building scalable APIs and high-performance backend systems with Node.js, TypeScript, and modern cloud-native tools.
             </motion.p>
           
             <div className='flex flex-col sm:flex-row items-center mt-4 gap-4'>
